@@ -12,6 +12,14 @@ body {
             rgba(0, 0, 0, 0.961),
             rgb(0, 0, 0))
 }
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
 
 #nav {
     display: flex;
