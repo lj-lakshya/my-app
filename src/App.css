@@ -1,0 +1,306 @@
+body {
+    /* background: radial-gradient(
+    circle,
+    rgb(123, 147, 147) 0%,
+    rgb(36, 57, 59) 35%,
+    rgb(52, 57, 56) 70%);
+    background-repeat: no-repeat;
+    background*/
+    background: repeating-linear-gradient(to right,
+            rgba(0, 0, 0, 0.885),
+            rgba(0, 0, 0, 0.937),
+            rgba(0, 0, 0, 0.961),
+            rgb(0, 0, 0))
+}
+
+#nav {
+    display: flex;
+    row-gap: 50vw;
+    gap: 30vw;
+    justify-content: center;
+}
+#nav img {
+    height: 70px;
+    border-radius: 10px;
+}
+
+#header1 ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    padding-left: 5vw;
+    color: rgba(0, 255, 255, 0.748)
+}
+
+#main1 {
+    display: flex;
+    gap: 100px;
+    padding-top: 8vw;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    column-gap: 1vw;
+    margin-right: 10vw;
+    margin-left: 10vw;
+}
+
+#img2 img {
+    width: 250px;
+    border-radius: 50px;
+    box-shadow: 20px 20px 20px rgb(30, 140, 145);
+}
+
+#main1 h2 {
+    color: rgb(170, 250, 225);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#main1 main {
+    background: repeating-linear-gradient(to right,
+            rgba(0, 0, 0, 0.075),
+            rgba(0, 0, 0, 0.09),
+            rgba(9, 9, 9, 0.476),
+            rgba(18, 17, 17, 0.8));
+    padding: 40px;
+    padding-top: 10px;
+    border-radius: 10px;
+    margin-right: 0;
+    position: relative;
+}
+
+#main1 .p {
+    font-size: 50px;
+    line-height: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(35, 248, 248);
+}
+
+#main1 b{
+    color: aliceblue;
+}
+#line1{
+    width: 150px;color: aqua;opacity: 60%;
+}
+#hr {
+    position: absolute;
+    left: 35px;
+}
+#l{
+    width: 50vw;color: azure;
+}
+
+/*2nd page*/
+#main2 {
+    display: flex;
+    gap: 50px;
+    padding-top: 8vw;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    column-gap: 2vw;
+    margin-right: 10vw;
+    margin-left: 10vw;
+}
+#corner h2{
+    color:rgb(170, 250, 225);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;line-height: 0;margin-bottom: 0;
+}
+
+#corner b{
+    color: rgb(35, 248, 248);
+}
+#myimg img {
+    width: 250px;
+    border-radius: 50px;
+    box-shadow:  -20px 20px 20px rgb(52, 69, 69);
+}
+
+#logo img {
+    height: 70px;
+    border-radius: 10px;
+}
+
+#logo {
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    padding-top: 20px;
+}
+
+#main2 .p {
+    color: aliceblue;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height:0.8;
+    margin-bottom: 30px;
+}
+
+#h2 {
+   position: relative;
+}
+
+.hr2 {
+    width: 150px;
+    color: aqua;
+    opacity: 60%;
+    position: absolute;
+}
+#para2{
+    line-height: 1.35;
+}
+#corner{
+    background:repeating-linear-gradient(
+    to left,
+    rgb(10, 10, 10),
+    rgba(47, 41, 41, 0.107),
+    rgba(35, 34, 34, 0.086));
+    padding: 30px;
+    padding-left: 50px;
+    border-radius: 10px;
+}
+.l{
+    color: aliceblue;
+}
+
+
+
+/*3rd page*/
+#main3{
+    padding: 20px;
+    padding-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+    margin-top: 8vw;
+    width: 90%;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    padding-left: 50px;
+}
+#main3 button{
+    background-color: rgba(0, 255, 255, 0.638);
+    border: 2px solid rgba(127, 255, 212, 0.554);
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    font-size: 18px;
+    color: rgb(240, 248, 255);
+}
+#main3 h3{
+    color:rgb(170, 250, 225);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;line-height :0;
+}
+#boxes{
+    display: flex;
+    gap: 10px;
+}
+#into{
+    background: repeating-linear-gradient(to right,
+            rgba(84, 79, 79, 0.203),
+            rgba(26, 24, 24, 0.569),
+            rgba(24, 26, 26, 0.502),
+            rgba(37, 34, 34, 0.162));
+    padding: 30px;
+    border-radius: 10px;
+}
+#into .heading{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height:0.8;
+    color: aliceblue;
+}
+#into b{
+    color: rgb(35, 248, 248);
+}
+#h3{
+    position: relative;
+}
+#h3 .h3{
+    width: 150px;
+    color: aqua;
+    opacity: 60%;
+    position: absolute;
+}
+#content3{
+    padding-bottom: 20px;
+    color: aliceblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#boxes .box{
+    margin-bottom:10px;
+    padding: 20px;
+    color: rgb(143, 245, 179);
+    width: 100px;
+    padding: 20px;
+    border-radius: 10px;
+    background: repeating-linear-gradient(to bottom,
+            rgba(0, 255, 255, 0.729),
+            rgba(0, 255, 255, 0.307),
+            rgba(0, 255, 255, 0.136),
+            rgba(0, 255, 255, 0));
+}
+#boxes #box2{
+    margin-top: 30px;
+}
+#boxes img{
+    width: 60px;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+
+
+/*4th Page*/
+#social #photo{
+    display: flex;
+    gap: 5vw;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: aliceblue;
+}
+#social img{
+    width: 150px;
+    border-radius: 20%;
+}
+#last{
+    padding-top: 10vw;
+}
+#social p{
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#last p{
+    color: aliceblue;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;font-size: 20px;line-height: 50px;transform: translateX(10vw)
+}
+#last b{
+    color: aqua;
+}
+
+/* map and weather */
+#m{
+  border: 50px;;
+}
+#map p{
+  color: aliceblue;
+}
+#wea #first{
+  width: 140px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding-left: 5px;
+}
+.elfsight-app-4c1e39a0-e44c-4c6d-95a2-646e339f6a6f{
+ 
+}
+#map h1{
+  width: 140px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding-left: 5px;
+}
