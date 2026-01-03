@@ -1,3 +1,9 @@
+/*nav bar*/
+html, body{
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
 body {
     /* background: radial-gradient(
     circle,
@@ -6,30 +12,25 @@ body {
     rgb(52, 57, 56) 70%);
     background-repeat: no-repeat;
     background*/
-    background: repeating-linear-gradient(to right,
+    min-height: 100vh;
+    background:linear-gradient(to right,
             rgba(0, 0, 0, 0.885),
             rgba(0, 0, 0, 0.937),
             rgba(0, 0, 0, 0.961),
-            rgb(0, 0, 0))
-}
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  overflow-x: hidden;
+            rgb(0, 0, 0));
 }
 
 #nav {
     display: flex;
     row-gap: 50vw;
-    gap: 30vw;
+    gap: 10vw;
     justify-content: center;
+    justify-content: space-around;
 }
 #nav img {
     height: 70px;
     border-radius: 10px;
+    margin-left: 10px;
 }
 
 #header1 ul {
@@ -288,29 +289,6 @@ body {
 }
 #last b{
     color: aqua;
-}
-
-/* map and weather */
-#m{
-  border: 50px;;
-}
-#map p{
-  color: aliceblue;
-}
-#wea #first{
-  width: 140px;
-  background-color: aliceblue;
-  border-radius: 10px;
-  padding-left: 5px;
-}
-.elfsight-app-4c1e39a0-e44c-4c6d-95a2-646e339f6a6f{
- 
-}
-#map h1{
-  width: 140px;
-  background-color: aliceblue;
-  border-radius: 10px;
-  padding-left: 5px;
 }
 
 @media (max-width: 768px) {
